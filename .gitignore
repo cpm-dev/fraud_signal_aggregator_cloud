@@ -40,3 +40,19 @@ Thumbs.db
 # Cargo
 target/
 Cargo.lock
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Lambda build artifacts
+lambda-layer/
+rust-core/dist/
+
+# Misc scripts not needed in repo
+low_risk_test.sh
+short_build.sh
+Dockerfile_OLD
+coverage.out
